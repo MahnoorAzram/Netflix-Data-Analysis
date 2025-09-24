@@ -30,6 +30,16 @@ Despite the popularity of bingeable series, Movies still make up the majority of
 Dramas, Comedies, and International content are the most dominant genres on the platform, highlighting Netflix's global strategy.
 ![Top Genres](images/top_genres.png)
 
+### 4. 🚀 Content-Based Recommendation Engine
+**Going beyond basic analysis, I built a machine learning system that recommends similar movies/shows based on plot and genre similarity.** Using NLP techniques like TF-IDF and cosine similarity, the engine can suggest content similar to any title in the dataset.
+
+**Example Recommendation:**
+- **Input:** "Stranger Things"
+- **Output:** Horror/Mystery shows with similar themes and descriptions
+- **Technology:** Scikit-learn, TF-IDF Vectorization, Cosine Similarity
+
+![Recommendation Engine](images/recommendation_engine.png)
+
 ## 🚀 How to Run
 
 1. Clone the repo
